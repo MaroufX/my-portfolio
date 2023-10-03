@@ -1,0 +1,293 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header{
+    background-color: whitesmoke;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+
+}
+.logo{ 
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 1.8em;
+
+}
+.navigation a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 700;
+    padding-left: 30px;
+
+}
+.navigation a:hover{
+    color: #000c;
+}
+section{
+    padding: 100px 200px;
+     
+}
+
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(imags/marouf.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100%;
+
+}
+
+.main h2 {
+    color: #000;
+    font-size: 2em;
+    font-weight: 800;
+}
+
+main h2 span {
+    display: inline-block;
+    margin-top: 50px;
+    color: #000;
+    font-size: 1.8em;
+    font-weight: 600;
+
+}
+
+.main h3{
+    color: #000;
+    font-size: 2em;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+.main-btn{
+    color: #000;
+    background-color: whitesmoke;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 1.9375 3.1875em;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    margin-bottom: 60px;
+    padding: 15px;
+    transition: 0.8s ease;
+    
+}
+.main-btn:hover {
+    background-color: whitesmoke;
+    transform: scale(1.1);
+
+}
+
+.social-icons a{
+    color: #000;
+    font-size: 1.8em;
+    padding: 10px;
+}
+
+
+.title{
+
+    display: flex;
+    justify-content: center;
+    color: #000;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+
+}
+
+.card{
+    background-color: whitesmoke;
+    width: 19em;
+    height: 500px;
+    box-shadow: 0 5px 25px rgba(1,1,1, 40%);
+    border-radius: 15px;
+    padding: 25px;
+    margin: 15px 25px;
+    transition: 0.8s ease;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.icon{
+    color: #000;
+    font-size: 8em;
+    text-align: center;
+
+}
+
+.info{
+    text-align: center;
+    
+
+}
+
+.info h3{
+    color: #000;
+    font-size: 1.8em;
+    font-weight: 800;
+    margin: 10px;
+
+}
+
+.info p{
+    font-size: 1.2em;
+    font-weight: 800;
+    
+}
+
+.project{
+    background-color: #000;
+}
+
+.project .content{
+    margin-top: 30px;
+
+}
+.project-card{
+    background-color: whitesmoke;
+    min-height: 10em;
+    width: 20em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 00.8s ease;
+
+}
+
+.project-card:hover .project-image {
+    opacity: 0.9;
+}
+
+.project-image img{
+    width: 100%;
+}
+
+.project-info{
+    padding: 1em;
+
+}
+
+.project-category{
+    font-size: 0.8em;
+    color: #000;
+    font-weight: 600;
+     
+}
+
+.project-title{
+    display: flex ;
+    justify-content: space-between ;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+}
+.more-details{
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+        padding: 1.9375 3.1875em;
+        letter-spacing: 1px;
+        border-radius: 10px;
+        margin-bottom: 60px;
+        padding: 15px;
+        transition: 0.8s ease;
+}
+.more-details:hover {
+    color: #000
+}
+
+.contact .icon{
+    font-size: 4.5em;
+
+}
+.contact.info h3{
+    color: #000;
+    text-align: center;
+}
+
+.contact .info p{
+    font-size: 1.5em;
+    font-weight: 500;
+    text-align: center;
+}
+
+.footer{
+    background-color: #000;
+    color: whitesmoke;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+
+}
+.footer-title{
+    font-size: 1.3em;
+    font-weight: 600;
+
+}
+
+/* @media (max-width:1023px){
+    padding: 12px 20px;
+
+} */
+
+.navigation{
+    scroll-padding-left: 10px;
+
+}
+
+.title{
+    font-size: 1.8em;
+
+}
+
+section{
+    padding: 80px;
+}
+
+.main-content h2{
+    font-size: 1em;
+}
+.content {
+    align-items: center;
+}
+
+.contact .card {
+    height: auto;
+}
